@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+body {
+  background-image: url('./assets/annie-spratt-6pMI--IXV-8-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  
+  
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  margin: 60px auto;
+}
+
+.background{
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 80%;
+  padding: 10px;
+  
+  
+}
+
+.form-title{
+  text-align: center;
+}
+
+.form-title h1{
+  font-size: 2.5rem;
+  padding-bottom: 7px;
+}
+
+.form-title p{
+  font-size:0.9rem;
+  font-weight: 600;
+  margin-right: 15px;
+  padding-bottom: 5px;
+}
+.auth{
+  padding: 5%;
+}
+
+.auth-label{
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+  font-weight:bold;
+  color: rgb(66, 66, 66);
+}
+
+.auth-input{
+    background-color: #222;
+    width: 250px;
+    border: none;
+    height: 28px;
+    margin-bottom: 8px;
+    color: aliceblue;
+    border: none;
+}
+
+.auth-button{
+    background-color: #222;
+    width: 250px;
+    color: aliceblue;
+    padding: 5px;
+    /* font-size: 1.1rem; */
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+  background-color: #ececec;
+  color: #222;
+  border: 0;
+}
